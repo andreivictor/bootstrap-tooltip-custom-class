@@ -31,10 +31,16 @@ Include `bootstrap-tooltip-custom-class.css` in your project or use the `.scss` 
 ```html
 <link rel="stylesheet" href="bootstrap-tooltip-custom-class.css" media="all" />
 ```
-SASS:
+####SASS:
 ```sass
 @import "bootstrap-tooltip-custom-class";
 ```
+Use the mixin `tooltip-custom` to create styles for your custom tooltip:
+````sass
+.tooltip-custom {
+  @include tooltip-custom(#f2653c);
+}
+````
 
 #### Javascript
 Include the script after Bootstrap's main javascript file:
