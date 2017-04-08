@@ -31,7 +31,7 @@ Include `bootstrap-tooltip-custom-class.css` in your project or use the `.scss` 
 ```html
 <link rel="stylesheet" href="bootstrap-tooltip-custom-class.css" media="all" />
 ```
-####SASS:
+#### SASS:
 ```sass
 @import "bootstrap-tooltip-custom-class";
 ```
