@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap 3 Tooltip Custom Classes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="bootstrap-tooltip-custom-class.css">
+  
+  <style>
+  .tooltip-custom .tooltip-inner {
+    background-color: #f2653c;
+  }
+  .tooltip-custom.top .tooltip-arrow {
+    border-top-color: #f2653c;
+  }
+  .tooltip-custom.right .tooltip-arrow {
+    border-right-color: #f2653c;
+  }
+  .tooltip-custom.left .tooltip-arrow {
+    border-left-color: #f2653c;
+  }
+  .tooltip-custom.bottom .tooltip-arrow {
+    border-bottom-color: #f2653c;
+  }
+
+  .tooltip-custom-alt .tooltip-inner {
+    background-color: #5b2da3;
+  }
+  .tooltip-custom-alt.top .tooltip-arrow {
+    border-top-color: #5b2da3;
+  }
+  .tooltip-custom-alt.right .tooltip-arrow {
+    border-right-color: #5b2da3;
+  }
+  .tooltip-custom-alt.left .tooltip-arrow {
+    border-left-color: #5b2da3;
+  }
+  .tooltip-custom-alt.bottom .tooltip-arrow {
+    border-bottom-color: #5b2da3;
+  }
+
+  .bs-example {
+    position: relative;
+    margin: 15px;
+    padding: 15px 15px 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .bs-example .btn {
+    margin: 5px;
+  }
+
+  .bs-example__title {
+    margin-bottom: 20px;  
+  }
+
+  .bs-example--static .tooltip {
+    position: relative;
+    display: inline-block;
+    margin: 10px 20px;
+    opacity: 1;
+  }
+  </style>
+</head>
+
+<body>
+<div class="bs-example bs-example--static">
+  
+  <h3 class="bs-example__title">Static examples</h3>
+  
+  <div class="bs-example__row">
+    
+    <div class="tooltip top tooltip-primary" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Tooltip primary example</div>
+    </div>
+    
+    <div class="tooltip top tooltip-success" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Tooltip success example</div>
+    </div>
+  
+    <div class="tooltip top tooltip-info" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Tooltip info example</div>
+    </div>
+
+    <div class="tooltip top tooltip-warning" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Tooltip warning example</div>
+    </div>
+  
+    <div class="tooltip top tooltip-danger" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Tooltip danger example</div>
+    </div>
+
+  </div>
+  
+  <div class="bs-example__row">
+    
+    <div class="tooltip bottom tooltip-custom" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Custom tooltip example</div>
+    </div>
+    
+    <div class="tooltip bottom tooltip-custom-alt" role="tooltip">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-inner">Another custom tooltip example</div>
+    </div>
+    
+  </div>
+         
+</div> <!-- end .bs-example  -->
+
+<div class="bs-example">
+  
+  <h3 class="bs-example__title">Dinamic examples</h3>
+  
+  <div class="bs-example__row">
+    
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-primary" title="Tooltip primary example">Tooltip primary</button>
+    
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-success" title="Tooltip success example">Tooltip success</button>
+  
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-info" title="Tooltip info example">Tooltip info</button>
+  
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-warning" title="Tooltip warning example">Tooltip warning</button>
+  
+    <button class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-danger" title="Tooltip danger example">Tooltip danger</button>
+    
+  </div>
+  
+  <div class="bs-example__row">
+    
+    <button class="btn btn-custom" data-toggle="tooltip" data-placement="bottom" title="Custom tooltip example">Custom tooltip</button>
+    
+    <button class="btn btn-custom-alt" data-toggle="tooltip" data-placement="bottom" title="Another custom tooltip example">Another custom tooltip</button>
+    
+  </div>
+    
+</div> <!-- end .bs-example-tooltip  -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js'></script>
+
+<script src="bootstrap-tooltip-custom-class.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('.btn-default').tooltip();
+  $('.btn-custom').tooltip({
+    customClass: 'tooltip-custom'
+  });
+  $('.btn-custom-alt').tooltip({
+    customClass: 'tooltip-custom-alt'
+  });
+});
+</script>
+
+</body>
+</html>
