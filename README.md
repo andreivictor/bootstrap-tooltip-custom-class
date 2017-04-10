@@ -1,13 +1,13 @@
 # Bootstrap Tooltip Custom Class
-Extend Bootstrap 3 Tooltip plugin by adding custom classes.
+Extend Bootstrap Tooltip plugin by adding custom classes. Available for **Bootstrap 3** and **Boostrap 4**.
 
 Custom classes can be added using `customClass` parameter or via `data-custom-class` attribute.
 
-There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`. 
+There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
 
 ## Usage
 
-- Use `data-custom-class` attribute: 
+- Use `data-custom-class` attribute:
 
 ```html
 <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-custom" title="Custom tooltip example">Tooltip example</button>
@@ -25,6 +25,8 @@ $(function () {
 ```
 
 ## Setup
+
+**Use the appropriate files according to Bootstrap version that you use.**
 
 #### CSS
 Include `bootstrap-tooltip-custom-class.css` in your project or use the `.scss` file:
@@ -50,4 +52,6 @@ Include the script after Bootstrap's main javascript file:
 ```
 
 ## Demo
-[Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
+
+- Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
+- Bootstrap 4: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)

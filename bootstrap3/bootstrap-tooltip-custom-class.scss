@@ -29,30 +29,30 @@ $tooltip-danger-bg:         $brand-danger !default;
 //
 //##
 @mixin tooltip-custom($bg-color, $color: $tooltip-color) {
-      
+
   .tooltip-inner {
     background-color: $bg-color;
     @if $color != $tooltip-color {
        color: $color;
     }
   }
-    
+
   &.top .tooltip-arrow {
     border-top-color: $bg-color;
   }
-    
+
   &.right .tooltip-arrow {
     border-right-color: $bg-color;
   }
-    
+
   &.left .tooltip-arrow {
     border-left-color: $bg-color;
   }
-    
+
   &.bottom .tooltip-arrow {
     border-bottom-color: $bg-color;
   }
-      
+
 }
 
 
@@ -77,16 +77,4 @@ $tooltip-danger-bg:         $brand-danger !default;
 
 .tooltip-danger {
   @include tooltip-custom($tooltip-danger-bg);
-}
-
-
-//== Styles for Tooltip Custom Classes
-//
-//##
-.tooltip-custom {
-  @include tooltip-custom(#f2653c);
-}
-
-.tooltip-custom-alt {
-  @include tooltip-custom(#5b2da3);
 }
