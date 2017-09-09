@@ -54,4 +54,5 @@ Include the script after Bootstrap's main javascript file:
 ## Demo
 
 - Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
-- Bootstrap 4: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
+- Bootstrap v4.0.0-alpha.6: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
+- Bootstrap v4.0.0-beta: [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
