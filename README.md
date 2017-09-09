@@ -5,6 +5,11 @@ Custom classes can be added using `customClass` parameter or via `data-custom-cl
 
 There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
 
+
+![Bootstrap Tooltip Custom Class Preview](https://i.imgur.com/CNoQ13w.png)
+
+
+
 ## Usage
 
 - Use `data-custom-class` attribute:
