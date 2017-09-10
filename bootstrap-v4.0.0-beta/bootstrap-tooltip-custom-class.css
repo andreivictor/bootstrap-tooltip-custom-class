@@ -1,0 +1,79 @@
+.tooltip-primary .tooltip-inner {
+  background-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-top .arrow:before {
+  border-top-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-right .arrow:before {
+  border-right-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-left .arrow:before {
+  border-left-color: #007bff;
+}
+.tooltip-primary.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #007bff;
+}
+
+.tooltip-success .tooltip-inner {
+  background-color: #28a745;
+}
+.tooltip-success.bs-tooltip-top .arrow:before {
+  border-top-color: #28a745;
+}
+.tooltip-success.bs-tooltip-right .arrow:before {
+  border-right-color: #28a745;
+}
+.tooltip-success.bs-tooltip-left .arrow:before {
+  border-left-color: #28a745;
+}
+.tooltip-success.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #28a745;
+}
+
+.tooltip-info .tooltip-inner {
+  background-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-top .arrow:before {
+  border-top-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-right .arrow:before {
+  border-right-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-left .arrow:before {
+  border-left-color: #17a2b8;
+}
+.tooltip-info.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #17a2b8;
+}
+
+.tooltip-warning .tooltip-inner {
+  background-color: #ffc107;
+}
+.tooltip-warning.bs-tooltip-top .arrow:before {
+  border-top-color: #ffc107;
+}
+.tooltip-warning.bs-tooltip-right .arrow:before {
+  border-right-color: #ffc107;
+}
+.tooltip-warning.bs-tooltip-left .arrow:before {
+  border-left-color: #ffc107;
+}
+.tooltip-warning.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #ffc107;
+}
+
+.tooltip-danger .tooltip-inner {
+  background-color: #dc3545;
+}
+.tooltip-danger.bs-tooltip-top .arrow:before {
+  border-top-color: #dc3545;
+}
+.tooltip-danger.bs-tooltip-right .arrow:before {
+  border-right-color: #dc3545;
+}
+.tooltip-danger.bs-tooltip-left .arrow:before {
+  border-left-color: #dc3545;
+}
+.tooltip-danger.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #dc3545;
+}
