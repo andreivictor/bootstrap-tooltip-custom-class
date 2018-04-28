@@ -58,6 +58,8 @@ Include the script after Bootstrap's main javascript file:
 
 ## Demo
 
-- Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
+- Bootstrap v4 (Bootstrap v4.0.0-beta, Bootstrap v4.0.0, Bootstrap v4.1.0): [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
 - Bootstrap v4.0.0-alpha.6: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
-- Bootstrap v4.0.0-beta: [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
+- Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
+
+
