@@ -1,5 +1,5 @@
 /* ================================================
- * bootstrap-tooltip-custom-class.js v0.0.1
+ * bootstrap-tooltip-custom-class.js v1.0.0
  *
  * Extend Bootstrap 3 Tooltip plugin by adding custom classes.
  * Custom classes can be added by using `customClass` parameter or via `data-custom-class` attribute.
