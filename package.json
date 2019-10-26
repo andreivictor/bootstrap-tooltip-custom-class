@@ -1,9 +1,10 @@
 {
   "name": "bootstrap-tooltip-custom-class",
   "version": "1.0.0",
-  "description": "Extend Bootstrap Tooltip plugin by adding custom classes. ",
+  "description": "Extend Bootstrap Tooltip plugin by adding custom classes.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-v3": "cd bootstrap-v3 && rm -rf node_modules && npm install && npm run build",
+    "build-all": "npm run build-v3"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/andreivictor/bootstrap-tooltip-custom-class/issues"
   },
-  "homepage": "https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme"
+  "homepage": "https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }

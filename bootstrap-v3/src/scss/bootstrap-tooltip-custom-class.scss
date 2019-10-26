@@ -1,0 +1,28 @@
+@import "bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+@import "variables";
+@import "mixin";
+
+
+//== Styles for predefined Tooltip Custom Classes
+//
+//##
+.tooltip-primary {
+  @include tooltip-custom($tooltip-primary-bg, $tooltip-color);
+}
+
+.tooltip-success {
+  @include tooltip-custom($tooltip-success-bg, $tooltip-color);
+}
+
+.tooltip-info {
+  @include tooltip-custom($tooltip-info-bg, $tooltip-color);
+}
+
+.tooltip-warning {
+  @include tooltip-custom($tooltip-warning-bg, $tooltip-color);
+}
+
+.tooltip-danger {
+  @include tooltip-custom($tooltip-danger-bg, $tooltip-color);
+}
