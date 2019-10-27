@@ -1,0 +1,14 @@
+//== Define Bootstrap variables for Tooltips
+//
+//##
+
+// Tooltip primary background color
+$tooltip-primary-bg:          map-get($theme-colors, "primary") !default;
+// Tooltip success background color
+$tooltip-success-bg:          map-get($theme-colors, "success") !default;
+// Tooltip info background color
+$tooltip-info-bg:             map-get($theme-colors, "info") !default;
+// Tooltip warning background color
+$tooltip-warning-bg:          map-get($theme-colors, "warning") !default;
+// Tooltip danger background color
+$tooltip-danger-bg:           map-get($theme-colors, "danger") !default;
