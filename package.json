@@ -5,8 +5,8 @@
   "scripts": {
     "build-v3": "cd bootstrap-v3 && rm -rf node_modules && npm install && npm run build",
     "build-v4": "cd bootstrap-v4 && rm -rf node_modules && npm install && npm run build",
-    "build-v4-alpha": "cd bootstrap-v4.0.0-alpha.6 && rm -rf node_modules && npm install && npm run build",
-    "build-all": "npm run build-v3 && npm run build-v4"
+    "build-v4-alpha": "cd bootstrap-v4-alpha && rm -rf node_modules && npm install && npm run build",
+    "build-all": "npm run build-v3 && npm run build-v4 && npm run build-v4-alpha"
   },
   "repository": {
     "type": "git",

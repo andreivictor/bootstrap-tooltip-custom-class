@@ -17,7 +17,6 @@ module.exports = function(grunt) {
     sass: {
       options: {
         implementation: sass,
-        banner : '<%= meta.banner %>',
         includePaths: [path.join(__dirname, 'node_modules')]
       },
       expanded: {
@@ -59,7 +58,7 @@ module.exports = function(grunt) {
           banner : '<%= meta.banner %>'
         },
         files: {
-          src: [ 'dist/css/*.css', 'dist/js/*.js', 'dist/scss/<%= meta.filename %>.scss' ]
+          src: [ 'dist/css/*.css', 'dist/js/*.js' ]
         }
       }
     },

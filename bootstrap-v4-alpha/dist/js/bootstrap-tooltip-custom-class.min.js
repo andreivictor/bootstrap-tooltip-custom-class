@@ -1,5 +1,5 @@
 /*!
- * bootstrap-tooltip-custom-class-for-bootstrap-v4.0.0-alpha.6
+ * bootstrap-tooltip-custom-class-for-bootstrap-v4-alpha
  * v1.0.0
  * Extend Bootstrap Tooltip plugin by adding custom classes. For Bootstrap v4.0.0-alpha.6.
 Custom classes can be added by using `customClass` parameter or via `data-custom-class` attribute.
