@@ -9,24 +9,11 @@ There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-succ
 ![Bootstrap Tooltip Custom Class Preview](https://i.imgur.com/CNoQ13w.png)
 
 
+## Installation
+To install latest version via `npm` run:
 
-## Usage
-
-- Use `data-custom-class` attribute:
-
-```html
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-custom" title="Custom tooltip example">Tooltip example</button>
 ```
-
-or
-
-- Use `customClass` parameter on plugin initialization:
-```javascript
-$(function () {
-  $('.my-element').tooltip({
-    customClass: 'tooltip-custom'
-  });
-});
+npm install bootstrap-tooltip-custom-class
 ```
 
 ## Setup
@@ -54,6 +41,25 @@ Include the script after Bootstrap's main javascript file:
 ```html
 <script src="bootstrap.js"></script>
 <script src="bootstrap-tooltip-custom-class.js"></script>
+```
+
+## Usage
+
+- Use `data-custom-class` attribute:
+
+```html
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-custom" title="Custom tooltip example">Tooltip example</button>
+```
+
+or
+
+- Use `customClass` parameter on plugin initialization:
+```javascript
+$(function () {
+  $('.my-element').tooltip({
+    customClass: 'tooltip-custom'
+  });
+});
 ```
 
 ## Demo
