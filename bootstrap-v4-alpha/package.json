@@ -1,38 +1,15 @@
 {
-  "name": "bootstrap-tooltip-custom-class-for-bootstrap-v4-alpha",
-  "version": "1.0.0",
-  "description": "Extend Bootstrap Tooltip plugin by adding custom classes. For Bootstrap v4.0.0-alpha.6.\nCustom classes can be added by using `customClass` parameter or via `data-custom-class` attribute.\nThere are 5 predefined custom classes in CSS: .tooltip-primary, .tooltip-success, .tooltip-info, .tooltip-warning, .tooltip-danger.",
-  "scripts": {
-    "build": "grunt build"
-  },
+  "name": "bootstrap-tooltip-custom-class",
+  "description": "Extend Bootstrap Tooltip plugin by adding custom classes. For Bootstrap v4.0.0-alpha.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreivictor/bootstrap-tooltip-custom-class.git"
   },
-  "keywords": [
-    "bootstrap"
-  ],
-  "author": {
-    "name": "Andrei Victor Bulearca",
-    "url": "https://andreivictor.ro/"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andreivictor/bootstrap-tooltip-custom-class/issues"
-  },
-  "homepage": "https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme",
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
     "jquery": "^3.4.1",
     "tether": "^1.4.7"
   },
-  "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-banner": "^0.6.0",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-sass": "^3.1.0",
-    "node-sass": "^4.13.0"
-  }
+  "version": "1.0.0"
 }

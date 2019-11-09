@@ -1,12 +1,21 @@
 {
   "name": "bootstrap-tooltip-custom-class",
   "version": "1.0.0",
-  "description": "Extend Bootstrap Tooltip plugin by adding custom classes.",
+  "description": "Extends Bootstrap Tooltip plugin by adding custom classes.",
+  "extraDescription": "Custom classes can be added by using `customClass` parameter or via `data-custom-class` attribute.\nThere are 5 predefined custom classes in CSS: .tooltip-primary, .tooltip-success, .tooltip-info, .tooltip-warning, .tooltip-danger.",
   "scripts": {
-    "build-v3": "cd bootstrap-v3 && rm -rf node_modules && npm install && npm run build",
-    "build-v4": "cd bootstrap-v4 && rm -rf node_modules && npm install && npm run build",
-    "build-v4-alpha": "cd bootstrap-v4-alpha && rm -rf node_modules && npm install && npm run build",
-    "build-all": "npm run build-v3 && npm run build-v4 && npm run build-v4-alpha"
+    "install-v3": "cd bootstrap-v3 && rm -rf node_modules && npm install",
+    "install-v4": "cd bootstrap-v4 && rm -rf node_modules && npm install",
+    "install-v4-alpha": "cd bootstrap-v4-alpha && rm -rf node_modules && npm install",
+    "install-all": "npm run install-v3 && npm run install-v4 && npm run install-v4-alpha",
+    "build-v3": "grunt buildv3",
+    "build-v4": "grunt buildv4",
+    "build-v4-alpha": "grunt buildv4Alpha",
+    "build-all": "npm run build-v3 && npm run build-v4 && npm run build-v4-alpha",
+    "version-v3": "cd bootstrap-v3 && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
+    "version-v4": "cd bootstrap-v4 && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
+    "version-v4-alpha": "cd bootstrap-v4-alpha && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
+    "version-all": "npm run version-v3 && npm run version-v4 && npm run version-v4-alpha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +34,16 @@
   },
   "homepage": "https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-eslint": "^22.0.0",
+    "grunt-sass": "^3.1.0",
+    "json": "^9.0.6",
+    "load-grunt-config": "latest",
+    "node-sass": "^4.13.0"
+  }
 }
