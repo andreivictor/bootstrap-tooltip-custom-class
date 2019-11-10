@@ -32,7 +32,18 @@ Include `bootstrap-tooltip-custom-class.css` in your project or use the `.scss` 
 Use the mixin `tooltip-custom` to create styles for your custom tooltip:
 ````sass
 .tooltip-custom {
-  @include tooltip-custom(#f2653c);
+  @include tooltip-custom(#f2653c, #fff);
+}
+````
+
+#### Less (only for Bootstrap v3):
+```less
+@import "bootstrap-tooltip-custom-class.less";
+```
+Use the mixin `tooltip-custom` to create styles for your custom tooltip:
+````less
+.tooltip-custom {
+  .tooltip-custom(#f2653c, #fff);
 }
 ````
 
