@@ -1,3 +1,12 @@
+/*!
+ * bootstrap-tooltip-custom-class
+ * v1.0.2
+ * Extends Bootstrap Tooltip plugin by adding custom classes.
+ * Copyright (c) 2019 Andrei Victor Bulearca - https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme
+ * License: MIT
+ */
+
+
 (function ($) {
 
     if (typeof $.fn.tooltip.Constructor === 'undefined') {
