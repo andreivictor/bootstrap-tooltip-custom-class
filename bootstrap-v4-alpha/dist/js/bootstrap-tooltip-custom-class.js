@@ -1,3 +1,12 @@
+/*!
+ * bootstrap-tooltip-custom-class
+ * v1.0.2
+ * Extends Bootstrap Tooltip plugin by adding custom classes.
+ * Copyright (c) 2019 Andrei Victor Bulearca - https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme
+ * License: MIT
+ */
+
+
 (function($) {
 
     if (typeof $.fn.tooltip.Constructor === 'undefined') {
@@ -6,7 +15,6 @@
 
     var Tooltip = $.fn.tooltip.Constructor;
 
-    // add customClass option to Bootstrap Tooltip
     $.extend( Tooltip.Default, {
         customClass: ''
     });
@@ -15,8 +23,7 @@
 
     Tooltip.prototype.show = function () {
 
-        // invoke parent method
-        _show.apply(this,Array.prototype.slice.apply(arguments));
+        _show.apply(this);
 
         if (this.config.customClass) {
             var tip = this.getTipElement();

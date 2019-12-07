@@ -10,7 +10,7 @@ Object.keys(projectMap).forEach(function (project) {
     files: {
       src: [
         `${projectMap[project]}/dist/css/*.css`,
-        `${projectMap[project]}/dist/css/*.js`
+        `${projectMap[project]}/dist/js/*.js`
       ]
     }
   }

@@ -6,7 +6,6 @@
 
     var Tooltip = $.fn.tooltip.Constructor;
 
-    // add customClass option to Bootstrap Tooltip
     $.extend( Tooltip.Default, {
         customClass: ''
     });
@@ -15,8 +14,7 @@
 
     Tooltip.prototype.show = function () {
 
-        // invoke parent method
-        _show.apply(this,Array.prototype.slice.apply(arguments));
+        _show.apply(this);
 
         if (this.config.customClass) {
             var tip = this.getTipElement();
