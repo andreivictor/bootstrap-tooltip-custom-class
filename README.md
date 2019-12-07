@@ -40,7 +40,7 @@ Use the mixin `tooltip-custom` to create styles for your custom tooltip:
 ```less
 @import "bootstrap-tooltip-custom-class.less";
 ```
-Use the mixin `tooltip-custom` to create styles for your custom tooltip:
+Use the mixin `tooltip-custom`:
 ````less
 .tooltip-custom {
   .tooltip-custom(#f2653c, #fff);
