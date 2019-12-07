@@ -24,7 +24,14 @@ Object.keys(projectMap).forEach(function (project) {
     },
     src: `${projectMap[project]}/src/scss/main.scss`,
     dest: `${projectMap[project]}/dist/css/<%= meta.filename %>.css`,
-  }
+  };
+  config[`${project}Demo`] = {
+    options: {
+      outputStyle: 'expanded'
+    },
+    src: `${projectMap[project]}/demo/demo.scss`,
+    dest: `${projectMap[project]}/demo/demo.css`,
+  };
 });
 
 module.exports = config;

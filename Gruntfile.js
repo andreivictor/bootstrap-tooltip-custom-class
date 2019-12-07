@@ -56,6 +56,7 @@ module.exports = function(grunt) {
         `clean:${project}`,
         `sass:${project}Compressed`,
         `sass:${project}Expanded`,
+        `sass:${project}Demo`,
         `eslint:${project}`,
         `copy:${project}`,
         `uglify:${project}`,
