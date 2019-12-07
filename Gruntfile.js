@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
   const projectMap = require('./grunt/project-map.js');
   const sassConfig = require('./grunt/sass');
+  const lessConfig = require('./grunt/less');
   const eslintConfig = require('./grunt/eslint');
   const copyConfig = require('./grunt/copy');
   const uglifyConfig = require('./grunt/uglify');
@@ -20,6 +21,7 @@ module.exports = function(grunt) {
       filename : 'bootstrap-tooltip-custom-class'
     },
     sass: sassConfig,
+    less: lessConfig,
     eslint: eslintConfig,
     copy: copyConfig,
     uglify: uglifyConfig,
@@ -28,6 +30,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-clean');

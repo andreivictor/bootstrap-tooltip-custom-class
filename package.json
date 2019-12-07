@@ -39,11 +39,11 @@
     "grunt-banner": "^0.6.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-eslint": "^22.0.0",
     "grunt-sass": "^3.1.0",
     "json": "^9.0.6",
-    "load-grunt-config": "latest",
     "node-sass": "^4.13.0"
   }
 }
