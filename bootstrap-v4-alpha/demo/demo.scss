@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/scss/variables";
+@import "../src/scss/bootstrap-tooltip-custom-class";
+
+.tooltip-custom {
+  @include tooltip-custom(#f2653c, #ffffff);
+}
+
+.tooltip-custom-alt {
+  @include tooltip-custom(#5b2da3, #ffffff);
+}
+
+//== Demo layout
+//
+//##
+.bs-example {
+  position: relative;
+  margin: 15px;
+  padding: 15px 15px 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+}
+.bs-example .btn {
+  margin: 5px;
+}
+
+.bs-example__title {
+  margin-bottom: 20px;
+}
+
+.bs-example--static .tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 10px 20px;
+  opacity: 1;
+}
