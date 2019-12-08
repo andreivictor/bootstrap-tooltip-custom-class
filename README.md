@@ -75,7 +75,20 @@ $(function () {
 
 ## Demo
 
-- Bootstrap v4 (Bootstrap v4.0.0-beta, Bootstrap v4.0.0, Bootstrap v4.1): [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
+#### Local
+Local demo files can be found in the `demo` folder inside of each project(`bootstrap-v3`, `bootstrap-v4`, `bootstrap-v4-alpha`).
+First, run the following instructions in the project's root folder:
+
+```
+$ npm install
+$ npm run install-#project_alias# / npm run install-all
+$ npm run build-#project_alias# / npm run build-all
+
+(project_alias = v3 / v4 / v4-alpha)
+```
+
+#### Online
+- Bootstrap v4: [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
 - Bootstrap v4.0.0-alpha.6: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
 - Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
 
