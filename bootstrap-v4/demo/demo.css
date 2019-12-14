@@ -145,6 +145,24 @@
   border-bottom-color: #5b2da3;
 }
 
+body {
+  padding-top: 4.5rem;
+}
+
+#topnav {
+  z-index: 1071;
+}
+
+#topnav .nav-link > i {
+  font-size: 26px;
+}
+
+@media (max-width: 390px) {
+  #topnav .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
 .bs-example {
   position: relative;
   margin: 15px;
