@@ -145,6 +145,37 @@
   border-left-color: #5b2da3;
 }
 
+body {
+  padding-top: 4.5rem;
+}
+
+#topnav {
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1071;
+}
+
+#topnav > .container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 575px) {
+  #topnav > .container {
+    width: 100%;
+  }
+}
+
+#topnav .nav-link > i {
+  font-size: 26px;
+}
+
+@media (max-width: 390px) {
+  #topnav .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
 .bs-example {
   position: relative;
   margin: 15px;
