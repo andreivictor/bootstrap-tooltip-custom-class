@@ -81,15 +81,15 @@ First, run the following instructions in the project's root folder:
 
 ```
 $ npm install
-$ npm run install-#project_alias# / npm run install-all
-$ npm run build-#project_alias# / npm run build-all
+$ npm run install-#project_alias# (or) npm run install-all
+$ npm run build-#project_alias# (or) npm run build-all
 
 (project_alias = v3 / v4 / v4-alpha)
 ```
 
 #### Online
 - Bootstrap v4: [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
-- Bootstrap v4.0.0-alpha.6: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
+- Bootstrap v4-alpha: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
 - Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
 
 
