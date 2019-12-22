@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-tooltip-custom-class",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Extends Bootstrap Tooltip plugin by adding custom classes.",
   "extraDescription": "Custom classes can be added by using `customClass` parameter or via `data-custom-class` attribute.\nThere are 5 predefined custom classes in CSS: .tooltip-primary, .tooltip-success, .tooltip-info, .tooltip-warning, .tooltip-danger.",
   "scripts": {
