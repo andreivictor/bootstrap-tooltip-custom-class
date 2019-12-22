@@ -88,8 +88,8 @@ $ npm run build-#project_alias# (or) npm run build-all
 ```
 
 #### Online
-- Bootstrap v4: [Codepen](https://codepen.io/andreivictor/pen/ayewjW)
-- Bootstrap v4-alpha: [Codepen](http://codepen.io/andreivictor/pen/MpNQNL)
-- Bootstrap 3: [Codepen](http://codepen.io/andreivictor/pen/gmNeJq)
+- Bootstrap v4: [Codepen](https://codepen.io/andreivictor/full/ayewjW)
+- Bootstrap v4-alpha: [Codepen](http://codepen.io/andreivictor/full/MpNQNL)
+- Bootstrap 3: [Codepen](https://codepen.io/andreivictor/full/gmNeJq)
 
 
