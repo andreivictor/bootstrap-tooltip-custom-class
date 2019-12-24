@@ -1,10 +1,10 @@
 (function ($) {
 
-    if (typeof $.fn.tooltip.Constructor === 'undefined') {
+    if (!$.fn.tooltip) {
         throw new Error('Bootstrap Tooltip must be included first!');
     }
 
-    if (typeof $.fn.popover.Constructor === 'undefined') {
+    if (!$.fn.popover) {
         throw new Error('Bootstrap Popover must be included first!');
     }
 
