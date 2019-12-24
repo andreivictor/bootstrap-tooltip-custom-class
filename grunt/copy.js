@@ -5,8 +5,8 @@ Object.keys(projectMap).forEach(function (project) {
   config[project] = {
     files: [
       {
-        src: `${projectMap[project]}/src/js/<%= meta.filename %>.js`,
-        dest: `${projectMap[project]}/dist/js/<%= meta.filename %>.js`
+        src: `${projectMap[project].path}/src/js/${projectMap[project].filename}.js`,
+        dest: `${projectMap[project].path}/dist/js/${projectMap[project].filename}.js`
       }
     ]
   }

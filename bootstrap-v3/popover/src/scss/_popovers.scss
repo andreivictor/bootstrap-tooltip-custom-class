@@ -1,0 +1,23 @@
+//== Styles for predefined Popover Custom Classes
+//
+//##
+
+.popover-primary {
+  @include popover-custom($popover-primary-title-bg, $popover-custom-title-color);
+}
+
+.popover-success {
+  @include popover-custom($popover-success-title-bg, $popover-custom-title-color);
+}
+
+.popover-info {
+  @include popover-custom($popover-info-title-bg, $popover-custom-title-color);
+}
+
+.popover-warning {
+  @include popover-custom($popover-warning-title-bg, $popover-custom-title-color);
+}
+
+.popover-danger {
+  @include popover-custom($popover-danger-title-bg, $popover-custom-title-color);
+}

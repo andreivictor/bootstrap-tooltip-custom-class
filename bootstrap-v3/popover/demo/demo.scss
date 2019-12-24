@@ -1,12 +1,12 @@
-@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
-@import "../src/scss/bootstrap-tooltip-custom-class";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../src/scss/bootstrap-popover-custom-class";
 
-.tooltip-custom {
-  @include tooltip-custom(#f2653c, #ffffff);
+.popover-custom {
+  @include popover-custom(#f2653c, #ffffff);
 }
 
-.tooltip-custom-alt {
-  @include tooltip-custom(#5b2da3, #ffffff);
+.popover-custom-alt {
+  @include popover-custom(#5b2da3, #ffffff);
 }
 
 //== Demo layout
@@ -17,7 +17,7 @@ body {
 }
 
 #topnav {
-  z-index: ($zindex-tooltip + 1);
+  z-index: ($zindex-popover + 1);
 
   .navbar-header {
     float: left;
@@ -57,9 +57,8 @@ body {
   margin-bottom: 20px;
 }
 
-.bs-example--static .tooltip {
+.bs-example--static .popover {
   position: relative;
   display: inline-block;
-  margin: 10px 20px;
-  opacity: 1;
+  margin: 20px;
 }

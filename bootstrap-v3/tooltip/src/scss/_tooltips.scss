@@ -1,6 +1,7 @@
 //== Styles for predefined Tooltip Custom Classes
 //
 //##
+
 .tooltip-primary {
   @include tooltip-custom($tooltip-primary-bg, $tooltip-color);
 }
