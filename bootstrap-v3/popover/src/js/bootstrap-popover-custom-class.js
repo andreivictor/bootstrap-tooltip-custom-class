@@ -1,18 +1,7 @@
 (function ($) {
 
-    if (!$.fn.tooltip) {
-        throw new Error('Bootstrap Tooltip must be included first!');
-    }
-
     if (!$.fn.popover) {
         throw new Error('Bootstrap Popover must be included first!');
-    }
-
-    var Tooltip = $.fn.tooltip.Constructor;
-
-    if (typeof Tooltip.DEFAULTS.customClass === 'undefined') {
-        // eslint-disable-next-line max-len
-        throw new Error('BootstrapPopoverCustomClass requires BootstrapTooltipCustomClass');
     }
 
     var Popover = $.fn.popover.Constructor;
@@ -21,6 +10,16 @@
         customClass: ''
     });
 
-    Popover.prototype.show = Tooltip.prototype.show;
+    var _show = Popover.prototype.show;
+
+    Popover.prototype.show = function () {
+
+        _show.apply(this);
+
+        if (this.options.customClass) {
+            var $tip = this.tip();
+            $tip.addClass(this.options.customClass);
+        }
+    };
 
 })(window.jQuery);
