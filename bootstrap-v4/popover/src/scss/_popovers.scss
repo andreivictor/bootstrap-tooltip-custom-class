@@ -1,0 +1,23 @@
+//== Styles for predefined Popover Custom Classes
+//
+//##
+
+.popover-primary {
+  @include popover-custom($popover-primary-header-bg, $popover-custom-header-color);
+}
+
+.popover-success {
+  @include popover-custom($popover-success-header-bg, $popover-custom-header-color);
+}
+
+.popover-info {
+  @include popover-custom($popover-info-header-bg, $popover-custom-header-color);
+}
+
+.popover-warning {
+  @include popover-custom($popover-warning-header-bg, $popover-custom-header-color);
+}
+
+.popover-danger {
+  @include popover-custom($popover-danger-header-bg, $popover-custom-header-color);
+}

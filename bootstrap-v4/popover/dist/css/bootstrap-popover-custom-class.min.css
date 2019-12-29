@@ -1,0 +1,12 @@
+/*!
+ * bootstrap-tooltip-custom-class
+ * v1.0.4
+ * Extends Bootstrap Tooltip plugin by adding custom classes.
+ * Copyright (c) 2019 Andrei Victor Bulearca - https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme
+ * License: MIT
+ */
+
+
+.popover-primary .popover-header{background:#007bff;color:#fff}.popover-primary.bs-popover-bottom .popover-header::before,.popover-primary.bs-popover-auto[x-placement^="bottom"] .popover-header::before{display:none}.popover-primary.bs-popover-bottom>.arrow::after,.popover-primary.bs-popover-auto[x-placement^="bottom"]>.arrow::after{border-bottom-color:#007bff}.popover-success .popover-header{background:#28a745;color:#fff}.popover-success.bs-popover-bottom .popover-header::before,.popover-success.bs-popover-auto[x-placement^="bottom"] .popover-header::before{display:none}.popover-success.bs-popover-bottom>.arrow::after,.popover-success.bs-popover-auto[x-placement^="bottom"]>.arrow::after{border-bottom-color:#28a745}.popover-info .popover-header{background:#17a2b8;color:#fff}.popover-info.bs-popover-bottom .popover-header::before,.popover-info.bs-popover-auto[x-placement^="bottom"] .popover-header::before{display:none}.popover-info.bs-popover-bottom>.arrow::after,.popover-info.bs-popover-auto[x-placement^="bottom"]>.arrow::after{border-bottom-color:#17a2b8}.popover-warning .popover-header{background:#ffc107;color:#fff}.popover-warning.bs-popover-bottom .popover-header::before,.popover-warning.bs-popover-auto[x-placement^="bottom"] .popover-header::before{display:none}.popover-warning.bs-popover-bottom>.arrow::after,.popover-warning.bs-popover-auto[x-placement^="bottom"]>.arrow::after{border-bottom-color:#ffc107}.popover-danger .popover-header{background:#dc3545;color:#fff}.popover-danger.bs-popover-bottom .popover-header::before,.popover-danger.bs-popover-auto[x-placement^="bottom"] .popover-header::before{display:none}.popover-danger.bs-popover-bottom>.arrow::after,.popover-danger.bs-popover-auto[x-placement^="bottom"]>.arrow::after{border-bottom-color:#dc3545}
+
+/*# sourceMappingURL=bootstrap-popover-custom-class.min.css.map */

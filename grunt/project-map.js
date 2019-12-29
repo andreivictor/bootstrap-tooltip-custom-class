@@ -10,9 +10,13 @@ module.exports = {
     path: "bootstrap-v3/popover",
     filename: popoverFilename
   },
-  v4: {
-    path: "bootstrap-v4",
+  v4Tooltip: {
+    path: "bootstrap-v4/tooltip",
     filename: tooltipFilename
+  },
+  v4Popover: {
+    path: "bootstrap-v4/popover",
+    filename: popoverFilename
   },
   v4Alpha: {
     path: "bootstrap-v4-alpha",
