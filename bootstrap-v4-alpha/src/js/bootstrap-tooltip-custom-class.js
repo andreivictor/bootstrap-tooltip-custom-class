@@ -1,6 +1,6 @@
 (function($) {
 
-    if (typeof $.fn.tooltip.Constructor === 'undefined') {
+    if (!$.fn.tooltip) {
         throw new Error('Bootstrap Tooltip must be included first!');
     }
 
