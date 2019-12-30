@@ -18,8 +18,12 @@ module.exports = {
     path: "bootstrap-v4/popover",
     filename: popoverFilename
   },
-  v4Alpha: {
-    path: "bootstrap-v4-alpha",
+  v4AlphaTooltip: {
+    path: "bootstrap-v4-alpha/tooltip",
     filename: tooltipFilename
+  },
+  v4AlphaPopover: {
+    path: "bootstrap-v4-alpha/popover",
+    filename: popoverFilename
   }
 };
