@@ -13,7 +13,12 @@ There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-succ
 To install latest version via `npm` run:
 
 ```
-$ npm install bootstrap-tooltip-custom-class
+npm install bootstrap-tooltip-custom-class
+```
+or via `yarn` run:
+
+```
+yarn add bootstrap-tooltip-custom-class
 ```
 
 ## Setup
