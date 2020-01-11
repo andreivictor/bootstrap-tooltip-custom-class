@@ -1,9 +1,7 @@
 # Bootstrap Tooltip Custom Class
-Extend Bootstrap Tooltip plugin by adding custom classes. Available for **Bootstrap 3** and **Boostrap 4**.
+Extend Bootstrap Tooltip plugin by adding custom classes to tooltips. Available for **Bootstrap 3** and **Bootstrap 4**.
 
-Custom classes can be added using `customClass` parameter or via `data-custom-class` attribute.
-
-There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
+Define your own custom class or use the predefined custom classes: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
 
 
 ![Bootstrap Tooltip Custom Class Preview](https://i.imgur.com/CNoQ13w.png)
@@ -13,7 +11,12 @@ There are 5 predefined custom classes in CSS: `.tooltip-primary`, `.tooltip-succ
 To install latest version via `npm` run:
 
 ```
-$ npm install bootstrap-tooltip-custom-class
+npm install bootstrap-tooltip-custom-class
+```
+or via `yarn` run:
+
+```
+yarn add bootstrap-tooltip-custom-class
 ```
 
 ## Setup
@@ -76,8 +79,8 @@ $(function () {
 ## Demo
 
 #### Local
-Local demo files can be found in the `demo` folder inside of each project(`bootstrap-v3`, `bootstrap-v4`, `bootstrap-v4-alpha`).
-First, run the following instructions in the project's root folder:
+Local demo files can be found in the `demo` folder of each project (`bootstrap-v3`, `bootstrap-v4`, `bootstrap-v4-alpha`).
+First, execute the following instructions in the root:
 
 ```
 $ npm install
