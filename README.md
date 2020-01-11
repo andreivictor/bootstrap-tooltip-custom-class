@@ -1,5 +1,5 @@
 # Bootstrap Tooltip Custom Class
-Extend Bootstrap Tooltip plugin by adding custom classes to tooltips. Available for **Bootstrap 3** and **Boostrap 4**.
+Extend Bootstrap Tooltip plugin by adding custom classes to tooltips. Available for **Bootstrap 3** and **Bootstrap 4**.
 
 Define your own custom class or use the predefined custom classes: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
 
@@ -79,8 +79,8 @@ $(function () {
 ## Demo
 
 #### Local
-Local demo files can be found in the `demo` folder inside of each project(`bootstrap-v3`, `bootstrap-v4`, `bootstrap-v4-alpha`).
-First, run the following instructions in the project's root folder:
+Local demo files can be found in the `demo` folder of each project (`bootstrap-v3`, `bootstrap-v4`, `bootstrap-v4-alpha`).
+First, execute the following instructions in the root:
 
 ```
 $ npm install
