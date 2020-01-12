@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-tooltip-custom-class",
   "version": "1.0.4",
-  "description": "Extends Bootstrap Tooltip plugin by adding custom classes.",
+  "description": "Extends Bootstrap Tooltip and Popover plugins by adding custom classes.",
   "scripts": {
     "install-v3": "cd bootstrap-v3 && rm -rf node_modules && npm install",
     "install-v4": "cd bootstrap-v4 && rm -rf node_modules && npm install",

@@ -1,5 +1,5 @@
 # Bootstrap Tooltip Custom Class
-Extend Bootstrap Tooltip plugin by adding custom classes to tooltips. Available for **Bootstrap 3** and **Bootstrap 4**.
+Extends Bootstrap Tooltip and Popover plugins by adding custom classes. Available for **Bootstrap 3** and **Bootstrap 4**.
 
 Define your own custom class or use the predefined custom classes: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
 
