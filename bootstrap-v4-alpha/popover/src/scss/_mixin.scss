@@ -1,0 +1,10 @@
+//== Popover Custom Mixin
+//
+//##
+
+@mixin popover-custom($title-bg, $title-color) {
+  .popover-title {
+    background-color: $title-bg;
+    color: $title-color;
+  }
+}

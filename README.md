@@ -1,7 +1,9 @@
 # Bootstrap Tooltip Custom Class
-Extend Bootstrap Tooltip plugin by adding custom classes to tooltips. Available for **Bootstrap 3** and **Bootstrap 4**.
+Extends Bootstrap Tooltips and Popovers by adding custom classes. Available for **Bootstrap 3** and **Bootstrap 4**.
 
-Define your own custom class or use the predefined custom classes: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
+Define your own custom class or use the predefined custom classes: 
+- tooltips: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
+- popovers: `.popover-primary`, `.popover-success`, `.popover-info`, `.popover-warning`, `.popover-danger`.
 
 
 ![Bootstrap Tooltip Custom Class Preview](https://i.imgur.com/CNoQ13w.png)
@@ -21,7 +23,11 @@ yarn add bootstrap-tooltip-custom-class
 
 ## Setup
 
-**Use the appropriate files according to Bootstrap version that you use.**
+**The implementations for [Tooltips][1] and [Popovers][2] are independent. You can include them together or you can use them separately.**
+
+**Use the appropriate files according to Bootstrap version that you use: `bootstrap-v3`, `bootstrap-v4` or `bootstrap-v4-alpha`.**
+
+### Tooltips
 
 #### CSS
 Include `bootstrap-tooltip-custom-class.css` in your project or use the `.scss` file:
@@ -57,6 +63,41 @@ Include the script after Bootstrap's main javascript file:
 <script src="bootstrap-tooltip-custom-class.js"></script>
 ```
 
+### Popovers
+#### CSS
+Include `bootstrap-popover-custom-class.css` in your project or use the `.scss` file:
+```html
+<link rel="stylesheet" href="bootstrap-popover-custom-class.css" media="all" />
+```
+#### SASS:
+```sass
+@import "bootstrap-popover-custom-class";
+```
+Use the mixin `popover-custom` to create styles for your custom popover:
+````sass
+.popover-custom {
+  @include popover-custom(#f2653c, #fff);
+}
+````
+
+#### Less (only for Bootstrap v3):
+```less
+@import "bootstrap-popover-custom-class.less";
+```
+Use the mixin `popover-custom`:
+````less
+.popover-custom {
+  .popover-custom(#f2653c, #fff);
+}
+````
+
+#### Javascript
+Include the script after Bootstrap's main javascript file:
+```html
+<script src="bootstrap.js"></script>
+<script src="bootstrap-popover-custom-class.js"></script>
+```
+
 ## Usage
 
 - Use `data-custom-class` attribute:
@@ -64,14 +105,24 @@ Include the script after Bootstrap's main javascript file:
 ```html
 <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" data-custom-class="tooltip-custom" title="Custom tooltip example">Tooltip example</button>
 ```
+```html
+<button type="button" class="btn btn-default" data-toggle="popover" data-placement="top" data-custom-class="popover-custom" title="Custom popover example" data-content="Vivamus sagittis lacus vel augue laoreet">Popover example</button>
+```
 
 or
 
 - Use `customClass` parameter on plugin initialization:
 ```javascript
 $(function () {
-  $('.my-element').tooltip({
+  $('.has-tooltip').tooltip({
     customClass: 'tooltip-custom'
+  });
+});
+```
+```javascript
+$(function () {
+  $('.has-popover').popover({
+    customClass: 'popover-custom'
   });
 });
 ```
@@ -79,7 +130,7 @@ $(function () {
 ## Demo
 
 #### Local
-Local demo files can be found in the `demo` folder of each project (`bootstrap-v3`, `bootstrap-v4`, `bootstrap-v4-alpha`).
+Local demo files can be found in the `demo` folder of each project.
 First, execute the following instructions in the root:
 
 ```
@@ -96,3 +147,5 @@ $ npm run build-#project_alias# (or) npm run build-all
 - Bootstrap 3: [Codepen](https://codepen.io/andreivictor/full/gmNeJq)
 
 
+[1]: #tooltips
+[2]: #popovers

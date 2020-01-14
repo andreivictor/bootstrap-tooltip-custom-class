@@ -6,7 +6,7 @@ Object.keys(projectMap).forEach(function (project) {
     options: {
       configFile: './.eslintrc.json',
     },
-    src: [`${projectMap[project]}/src/js/<%= meta.filename %>.js`]
+    src: [`${projectMap[project].path}/src/js/${projectMap[project].filename}.js`]
   }
 });
 

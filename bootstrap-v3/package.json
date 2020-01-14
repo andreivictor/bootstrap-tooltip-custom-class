@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-tooltip-custom-class",
-  "description": "Extend Bootstrap Tooltip plugin by adding custom classes. For Bootstrap v3.",
+  "description": "Extends Bootstrap Tooltips and Popovers by adding custom classes. For Bootstrap v3.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreivictor/bootstrap-tooltip-custom-class.git"

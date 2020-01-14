@@ -15,22 +15,22 @@ Object.keys(projectMap).forEach(function (project) {
       outputStyle: 'compressed',
       sourceMap: true
     },
-    src: `${projectMap[project]}/src/scss/main.scss`,
-    dest: `${projectMap[project]}/dist/css/<%= meta.filename %>.min.css`,
+    src: `${projectMap[project].path}/src/scss/main.scss`,
+    dest: `${projectMap[project].path}/dist/css/${projectMap[project].filename}.min.css`,
   };
   config[`${project}Expanded`] = {
     options: {
       outputStyle: 'expanded'
     },
-    src: `${projectMap[project]}/src/scss/main.scss`,
-    dest: `${projectMap[project]}/dist/css/<%= meta.filename %>.css`,
+    src: `${projectMap[project].path}/src/scss/main.scss`,
+    dest: `${projectMap[project].path}/dist/css/${projectMap[project].filename}.css`,
   };
   config[`${project}Demo`] = {
     options: {
       outputStyle: 'expanded'
     },
-    src: `${projectMap[project]}/demo/demo.scss`,
-    dest: `${projectMap[project]}/demo/demo.css`,
+    src: `${projectMap[project].path}/demo/demo.scss`,
+    dest: `${projectMap[project].path}/demo/demo.css`,
   };
 });
 

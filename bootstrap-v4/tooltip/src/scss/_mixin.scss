@@ -1,0 +1,28 @@
+//== Tooltip Custom Mixin
+//
+//##
+
+@mixin tooltip-custom($bg-color, $color) {
+
+  .tooltip-inner {
+    background-color: $bg-color;
+    color: $color;
+  }
+
+  &.bs-tooltip-top .arrow:before {
+    border-top-color: $bg-color;
+  }
+
+  &.bs-tooltip-right .arrow:before {
+    border-right-color: $bg-color;
+  }
+
+  &.bs-tooltip-left .arrow:before {
+    border-left-color: $bg-color;
+  }
+
+  &.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: $bg-color;
+  }
+
+}

@@ -1,0 +1,88 @@
+.popover-primary .popover-title {
+  background: #337ab7;
+  color: #fff;
+}
+
+.popover-success .popover-title {
+  background: #5cb85c;
+  color: #fff;
+}
+
+.popover-info .popover-title {
+  background: #5bc0de;
+  color: #fff;
+}
+
+.popover-warning .popover-title {
+  background: #f0ad4e;
+  color: #fff;
+}
+
+.popover-danger .popover-title {
+  background: #d9534f;
+  color: #fff;
+}
+
+.popover-custom .popover-title {
+  background: #f2653c;
+  color: #ffffff;
+}
+
+.popover-custom-alt .popover-title {
+  background: #5b2da3;
+  color: #ffffff;
+}
+
+body {
+  padding-top: 50px;
+}
+
+#topnav {
+  z-index: 1061;
+}
+
+#topnav .navbar-header {
+  float: left;
+}
+
+#topnav .navbar-right {
+  float: right !important;
+  margin: 0 -15px 0 0;
+}
+
+@media (max-width: 340px) {
+  #topnav .navbar-brand {
+    font-size: 14px;
+  }
+}
+
+#topnav .navbar-nav > li > a {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+#topnav .navbar-nav > li > a > i {
+  font-size: 26px;
+}
+
+.bs-example {
+  position: relative;
+  margin: 15px;
+  padding: 15px 15px 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+}
+
+.bs-example .btn {
+  margin: 5px;
+}
+
+.bs-example__title {
+  margin-bottom: 20px;
+}
+
+.bs-example--static .popover {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}

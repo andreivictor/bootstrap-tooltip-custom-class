@@ -15,10 +15,9 @@ module.exports = function(grunt) {
         ' * <%= pkg.name %>\n' +
         ' * v<%= pkg.version %>\n' +
         ' * <%= pkg.description %>\n' +
-        ' * Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %> - <%= pkg.homepage %>\n' +
+        ' * Copyright (c) 2017 - <%= grunt.template.today("yyyy") %> <%= pkg.author.name %> - <%= pkg.homepage %>\n' +
         ' * License: <%= pkg.license %>\n' +
-        ' */\n\n',
-      filename : 'bootstrap-tooltip-custom-class'
+        ' */\n\n'
     },
     sass: sassConfig,
     less: lessConfig,

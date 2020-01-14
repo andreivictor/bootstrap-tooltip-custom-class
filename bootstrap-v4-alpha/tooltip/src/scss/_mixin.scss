@@ -1,0 +1,40 @@
+//== Tooltip Custom Mixin
+//
+//##
+
+@mixin tooltip-custom($bg-color, $color) {
+
+  .tooltip-inner {
+    background-color: $bg-color;
+    color: $color;
+  }
+
+  &.tooltip-top,
+  &.bs-tether-element-attached-bottom {
+    .tooltip-inner::before {
+      border-top-color: $bg-color;
+    }
+  }
+
+  &.tooltip-right,
+  &.bs-tether-element-attached-left {
+    .tooltip-inner::before {
+      border-right-color: $bg-color;
+    }
+  }
+
+  &.tooltip-bottom,
+  &.bs-tether-element-attached-top {
+    .tooltip-inner::before {
+      border-bottom-color: $bg-color;
+    }
+  }
+
+  &.tooltip-left,
+  &.bs-tether-element-attached-right {
+    .tooltip-inner::before {
+      border-left-color: $bg-color;
+    }
+  }
+
+}
