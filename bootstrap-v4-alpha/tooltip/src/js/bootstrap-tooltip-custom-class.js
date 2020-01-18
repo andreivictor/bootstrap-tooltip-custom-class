@@ -6,7 +6,7 @@
 
     var Tooltip = $.fn.tooltip.Constructor;
 
-    $.extend( Tooltip.Default, {
+    $.extend(Tooltip.Default, {
         customClass: ''
     });
 

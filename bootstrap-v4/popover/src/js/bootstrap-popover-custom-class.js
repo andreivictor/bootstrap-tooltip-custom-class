@@ -6,7 +6,7 @@
 
     var Popover = $.fn.popover.Constructor;
 
-    $.extend( Popover.Default, {
+    $.extend(Popover.Default, {
         customClass: ''
     });
 
@@ -16,7 +16,7 @@
 
         _show.apply(this);
 
-        if ( this.config.customClass ) {
+        if (this.config.customClass) {
             var tip = this.getTipElement();
             $(tip).addClass(this.config.customClass);
         }

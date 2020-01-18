@@ -16,7 +16,7 @@
 
         _show.apply(this);
 
-        if ( this.options.customClass ) {
+        if (this.options.customClass) {
             var $tip = this.tip();
             $tip.addClass(this.options.customClass);
         }
