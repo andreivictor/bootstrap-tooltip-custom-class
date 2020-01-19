@@ -5,8 +5,13 @@ Define your own custom class or use the predefined custom classes:
 - tooltips: `.tooltip-primary`, `.tooltip-success`, `.tooltip-info`, `.tooltip-warning`, `.tooltip-danger`.
 - popovers: `.popover-primary`, `.popover-success`, `.popover-info`, `.popover-warning`, `.popover-danger`.
 
+![Bootstrap Tooltip Custom Class Preview](https://i.imgur.com/jxNbT5S.png)
 
-![Bootstrap Tooltip Custom Class Preview](https://i.imgur.com/CNoQ13w.png)
+![Bootstrap Popover Custom Class Preview](https://i.imgur.com/FFUqwUq.png)
+
+In **Bootstrap 4**, the predefined tooltips and popovers are built from the `$theme-colors` map, so there are 3 more custom classes:
+- tooltips: `.tooltip-secondary`, `.tooltip-light`, `.tooltip-dark`.
+- popovers: `.popover-secondary`, `.popover-light`, `.popover-dark`.
 
 
 ## Installation
