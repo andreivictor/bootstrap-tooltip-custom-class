@@ -147,10 +147,24 @@ $ npm run build-#project_alias# (or) npm run build-all
 ```
 
 #### Online
+
+##### Tooltip
 - Bootstrap v4: [Codepen](https://codepen.io/andreivictor/full/ayewjW)
 - Bootstrap v4-alpha: [Codepen](http://codepen.io/andreivictor/full/MpNQNL)
-- Bootstrap 3: [Codepen](https://codepen.io/andreivictor/full/gmNeJq)
+- Bootstrap v3: [Codepen](https://codepen.io/andreivictor/full/gmNeJq)
 
+##### Popover
+- Bootstrap v4: [Codepen](https://codepen.io/andreivictor/full/bGNZVVX)
+- Bootstrap v4-alpha: [Codepen](https://codepen.io/andreivictor/full/KKwEdXg)
+- Bootstrap v3: [Codepen](https://codepen.io/andreivictor/full/wvBOKJw)
 
 [1]: #tooltips
 [2]: #popovers
+
+
+## Integrations with other libraries
+
+- For the CSS part, this library can be used with the following libraries:
+
+#### React Bootstrap [https://react-bootstrap.github.io/]: 
+- Tooltips: https://codesandbox.io/s/react-bootstrap-with-bootstrap-tooltip-custom-class-n5x8u
