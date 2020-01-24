@@ -164,7 +164,10 @@ $ npm run build-#project_alias# (or) npm run build-all
 
 ## Integrations with other libraries
 
-- For the CSS part, this library can be used with the following libraries:
+For the CSS part, this project can also be used with the following libraries:
 
 #### React Bootstrap [https://react-bootstrap.github.io/]: 
 - Tooltips: https://codesandbox.io/s/react-bootstrap-with-bootstrap-tooltip-custom-class-n5x8u
+
+#### ngx-bootstrap [https://valor-software.com/ngx-bootstrap]
+- Tooltips: https://stackblitz.com/edit/angular-qibctz
