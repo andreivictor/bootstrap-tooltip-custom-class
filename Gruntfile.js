@@ -7,6 +7,8 @@ module.exports = function(grunt) {
   const uglifyConfig = require('./grunt/uglify');
   const usebannerConfig = require('./grunt/usebanner');
   const cleanConfig = require('./grunt/clean');
+  const watchConfig = require('./grunt/watch');
+  const connectConfig = require('./grunt/connect');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('./package.json'),
@@ -26,6 +28,8 @@ module.exports = function(grunt) {
     uglify: uglifyConfig,
     usebanner: usebannerConfig,
     clean: cleanConfig,
+    watch: watchConfig,
+    connect: connectConfig
   });
 
   grunt.loadNpmTasks('grunt-sass');
@@ -35,6 +39,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-banner');
   grunt.loadNpmTasks('grunt-eslint');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.registerTask(
     'buildAll',
@@ -62,7 +68,21 @@ module.exports = function(grunt) {
         `usebanner:${project}`
       ]
     );
+    grunt.registerTask(
+      `serve${project}`,
+      [
+        `connect:${project}`,
+        `watch:${project}`
+      ]
+    )
   });
 
-  grunt.registerTask('default', ['buildAll']);
+  grunt.registerTask('default', [
+    'buildAll'
+  ]);
+
+  grunt.registerTask('serveAll', [
+    'connect',
+    'watch'
+  ]);
 };
