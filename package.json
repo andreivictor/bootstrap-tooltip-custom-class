@@ -20,7 +20,14 @@
     "version-v3": "cd bootstrap-v3 && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
     "version-v4": "cd bootstrap-v4 && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
     "version-v4-alpha": "cd bootstrap-v4-alpha && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
-    "version-all": "npm run version-v3 && npm run version-v4 && npm run version-v4-alpha"
+    "version-all": "npm run version-v3 && npm run version-v4 && npm run version-v4-alpha",
+    "serve-v3-tooltip": "grunt serve-v3Tooltip",
+    "serve-v3-popover": "grunt serve-v3Popover",
+    "serve-v4-tooltip": "grunt serve-v4Tooltip",
+    "serve-v4-popover": "grunt serve-v4Popover",
+    "serve-v4-alpha-tooltip": "grunt serve-v4AlphaTooltip",
+    "serve-v4-alpha-popover": "grunt serve-v4AlphaPopover",
+    "serve-all": "grunt serve-all"
   },
   "repository": {
     "type": "git",

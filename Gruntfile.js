@@ -69,7 +69,7 @@ module.exports = function(grunt) {
       ]
     );
     grunt.registerTask(
-      `serve${project}`,
+      `serve-${project}`,
       [
         `connect:${project}`,
         `watch:${project}`
@@ -81,7 +81,7 @@ module.exports = function(grunt) {
     'buildAll'
   ]);
 
-  grunt.registerTask('serveAll', [
+  grunt.registerTask('serve-all', [
     'connect',
     'watch'
   ]);
