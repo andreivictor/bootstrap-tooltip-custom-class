@@ -171,3 +171,6 @@ For the CSS part, this project can also be used with the following libraries:
 
 #### ngx-bootstrap [https://valor-software.com/ngx-bootstrap]
 - Tooltips: https://stackblitz.com/edit/angular-qibctz
+
+#### ng-bootstrap [https://ng-bootstrap.github.io/]
+- Tooltips: https://stackblitz.com/edit/angular-culnfu
