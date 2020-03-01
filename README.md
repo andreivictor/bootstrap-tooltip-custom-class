@@ -158,6 +158,10 @@ $ npm run build-#project_alias# (or) npm run build-all
 - Bootstrap v4-alpha: [Codepen](https://codepen.io/andreivictor/full/KKwEdXg)
 - Bootstrap v3: [Codepen](https://codepen.io/andreivictor/full/wvBOKJw)
 
+##### Tooltip + Popover
+- Bootstrap v4: [Codepen](https://codepen.io/andreivictor/full/PoqwKNj)
+- Bootstrap v3: [Codepen](https://codepen.io/andreivictor/full/OJVPjEv)
+
 [1]: #tooltips
 [2]: #popovers
 
@@ -168,9 +172,12 @@ For the CSS part, this project can also be used with the following libraries:
 
 #### React Bootstrap [https://react-bootstrap.github.io/]: 
 - Tooltips: https://codesandbox.io/s/react-bootstrap-with-bootstrap-tooltip-custom-class-n5x8u
+- Popovers: https://codesandbox.io/s/react-bootstrap-with-bootstrap-tooltip-custom-class-0erhx
 
 #### ngx-bootstrap [https://valor-software.com/ngx-bootstrap]
 - Tooltips: https://stackblitz.com/edit/angular-qibctz
+- Popovers: https://stackblitz.com/edit/angular-bpmfzc
 
 #### ng-bootstrap [https://ng-bootstrap.github.io/]
 - Tooltips: https://stackblitz.com/edit/angular-culnfu
+- Popovers: https://stackblitz.com/edit/angular-evxzym
