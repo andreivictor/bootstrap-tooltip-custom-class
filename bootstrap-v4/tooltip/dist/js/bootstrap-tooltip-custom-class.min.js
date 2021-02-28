@@ -2,7 +2,7 @@
  * bootstrap-tooltip-custom-class
  * v1.1.0
  * Extends Bootstrap Tooltips and Popovers by adding custom classes.
- * Copyright (c) 2017 - 2020 Andrei Victor Bulearca - https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme
+ * Copyright (c) 2017 - 2021 Andrei Victor Bulearca - https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme
  * License: MIT
  */
 

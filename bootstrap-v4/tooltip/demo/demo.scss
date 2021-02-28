@@ -53,8 +53,8 @@ body {
   opacity: 1;
 }
 .bs-example--static .bs-tooltip-top .arrow {
-  left: 50%;
+  left: calc(50% - #{$tooltip-arrow-width} / 2);
 }
 .bs-example--static .bs-tooltip-bottom .arrow {
-  left: 50%;
+  left: calc(50% - #{$tooltip-arrow-width} / 2);
 }
