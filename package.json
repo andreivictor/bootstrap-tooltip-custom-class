@@ -6,7 +6,8 @@
     "install-v3": "cd bootstrap-v3 && rm -rf node_modules && npm install",
     "install-v4": "cd bootstrap-v4 && rm -rf node_modules && npm install",
     "install-v4-alpha": "cd bootstrap-v4-alpha && rm -rf node_modules && npm install",
-    "install-all": "npm run install-v3 && npm run install-v4 && npm run install-v4-alpha",
+    "install-v5": "cd bootstrap-v5 && rm -rf node_modules && npm install",
+    "install-all": "npm run install-v3 && npm run install-v4 && npm run install-v4-alpha && npm run install-v5",
     "build-v3-tooltip": "grunt buildv3Tooltip",
     "build-v3-popover": "grunt buildv3Popover",
     "build-v3": "npm run build-v3-tooltip && npm run build-v3-popover",
@@ -16,6 +17,7 @@
     "build-v4-alpha-tooltip": "grunt buildv4AlphaTooltip",
     "build-v4-alpha-popover": "grunt buildv4AlphaPopover",
     "build-v4-alpha": "npm run build-v4-alpha-tooltip && npm run build-v4-alpha-popover",
+    "build-v5-tooltip": "grunt buildv5Tooltip",
     "build-all": "npm run build-v3 && npm run build-v4 && npm run build-v4-alpha",
     "version-v3": "cd bootstrap-v3 && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
     "version-v4": "cd bootstrap-v4 && json -I -f package.json -e 'this.version=process.env.npm_package_version'",
@@ -27,6 +29,7 @@
     "serve-v4-popover": "grunt serve-v4Popover",
     "serve-v4-alpha-tooltip": "grunt serve-v4AlphaTooltip",
     "serve-v4-alpha-popover": "grunt serve-v4AlphaPopover",
+    "serve-v5-tooltip": "grunt serve-v5Tooltip",
     "serve-all": "grunt serve-all"
   },
   "repository": {

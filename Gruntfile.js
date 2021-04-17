@@ -55,18 +55,26 @@ module.exports = function(grunt) {
   );
 
   Object.keys(projectMap).forEach(function (project) {
-    grunt.registerTask(
-      `build${project}`,
-      [
-        `clean:${project}`,
-        `sass:${project}Compressed`,
-        `sass:${project}Expanded`,
-        `sass:${project}Demo`,
+    let taskList = [
+      `clean:${project}`,
+      `sass:${project}Compressed`,
+      `sass:${project}Expanded`,
+      `sass:${project}Demo`
+    ];
+
+    if (projectMap[project].hasJs) {
+      taskList.push(
         `eslint:${project}`,
         `copy:${project}`,
-        `uglify:${project}`,
-        `usebanner:${project}`
-      ]
+        `uglify:${project}`
+      );
+    }
+
+    taskList.push(`usebanner:${project}`);
+
+    grunt.registerTask(
+      `build${project}`,
+      taskList
     );
     grunt.registerTask(
       `serve-${project}`,

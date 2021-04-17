@@ -2,6 +2,9 @@ const projectMap = require('./project-map.js');
 let config = {};
 
 Object.keys(projectMap).forEach(function (project) {
+  if (!projectMap[project].hasJs) {
+    return;
+  }
   config[project] = {
     files: [
       {
