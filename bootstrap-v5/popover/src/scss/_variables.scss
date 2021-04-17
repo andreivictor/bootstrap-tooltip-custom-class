@@ -1,0 +1,29 @@
+//== Define Bootstrap variables for Popovers
+//
+//##
+
+// Popover primary background color
+$popover-primary-header-bg:           map-get($theme-colors, "primary") !default;
+
+// Popover secondary background color
+$popover-secondary-header-bg:         map-get($theme-colors, "secondary") !default;
+
+// Popover success background color
+$popover-success-header-bg:           map-get($theme-colors, "success") !default;
+
+// Popover info background color
+$popover-info-header-bg:              map-get($theme-colors, "info") !default;
+
+// Popover warning background color
+$popover-warning-header-bg:           map-get($theme-colors, "warning") !default;
+
+// Popover danger background color
+$popover-danger-header-bg:            map-get($theme-colors, "danger") !default;
+
+// Popover light background color
+$popover-light-header-bg:             map-get($theme-colors, "light") !default;
+
+// Popover dark background color
+$popover-dark-header-bg:              map-get($theme-colors, "dark") !default;
+
+$popover-custom-header-color:         #fff !default;

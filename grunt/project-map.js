@@ -43,5 +43,11 @@ module.exports = {
     path: "bootstrap-v5/tooltip",
     filename: tooltipFilename,
     hasJs: false
+  },
+  v5Popover: {
+    base: "bootstrap-v5",
+    path: "bootstrap-v5/popover",
+    filename: popoverFilename,
+    hasJs: false
   }
 };
