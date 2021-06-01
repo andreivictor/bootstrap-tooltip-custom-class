@@ -6,8 +6,8 @@
     "url": "git+https://github.com/andreivictor/bootstrap-tooltip-custom-class.git"
   },
   "dependencies": {
-    "@popperjs/core": "^2.8.6",
-    "bootstrap": "^5.0.0-beta3"
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1"
   },
   "license": "MIT",
   "version": "1.2.0"
