@@ -54,7 +54,7 @@
   "homepage": "https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.4",
+    "grunt": "^1.4.1",
     "grunt-banner": "^0.6.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-connect": "^2.1.0",
@@ -65,6 +65,6 @@
     "grunt-eslint": "^22.0.0",
     "grunt-sass": "^3.1.0",
     "json": "^10.0.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.14.1"
   }
 }
