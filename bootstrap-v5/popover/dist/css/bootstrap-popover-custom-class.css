@@ -1,0 +1,112 @@
+/*!
+ * bootstrap-tooltip-custom-class
+ * v1.1.0
+ * Extends Bootstrap Tooltips and Popovers by adding custom classes.
+ * Copyright (c) 2017 - 2021 Andrei Victor Bulearca - https://github.com/andreivictor/bootstrap-tooltip-custom-class#readme
+ * License: MIT
+ */
+
+
+.popover-primary .popover-header {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.popover-primary.bs-popover-bottom .popover-header::before, .popover-primary.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-primary.bs-popover-bottom > .popover-arrow::after, .popover-primary.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #0d6efd;
+}
+
+.popover-secondary .popover-header {
+  background: #6c757d;
+  color: #fff;
+}
+
+.popover-secondary.bs-popover-bottom .popover-header::before, .popover-secondary.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-secondary.bs-popover-bottom > .popover-arrow::after, .popover-secondary.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #6c757d;
+}
+
+.popover-success .popover-header {
+  background: #198754;
+  color: #fff;
+}
+
+.popover-success.bs-popover-bottom .popover-header::before, .popover-success.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-success.bs-popover-bottom > .popover-arrow::after, .popover-success.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #198754;
+}
+
+.popover-info .popover-header {
+  background: #0dcaf0;
+  color: #000;
+}
+
+.popover-info.bs-popover-bottom .popover-header::before, .popover-info.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-info.bs-popover-bottom > .popover-arrow::after, .popover-info.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #0dcaf0;
+}
+
+.popover-warning .popover-header {
+  background: #ffc107;
+  color: #000;
+}
+
+.popover-warning.bs-popover-bottom .popover-header::before, .popover-warning.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-warning.bs-popover-bottom > .popover-arrow::after, .popover-warning.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #ffc107;
+}
+
+.popover-danger .popover-header {
+  background: #dc3545;
+  color: #fff;
+}
+
+.popover-danger.bs-popover-bottom .popover-header::before, .popover-danger.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-danger.bs-popover-bottom > .popover-arrow::after, .popover-danger.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #dc3545;
+}
+
+.popover-light .popover-header {
+  background: #f8f9fa;
+  color: #000;
+}
+
+.popover-light.bs-popover-bottom .popover-header::before, .popover-light.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-light.bs-popover-bottom > .popover-arrow::after, .popover-light.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #f8f9fa;
+}
+
+.popover-dark .popover-header {
+  background: #212529;
+  color: #fff;
+}
+
+.popover-dark.bs-popover-bottom .popover-header::before, .popover-dark.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
+  display: none;
+}
+
+.popover-dark.bs-popover-bottom > .popover-arrow::after, .popover-dark.bs-popover-auto[x-placement^="bottom"] > .popover-arrow::after {
+  border-bottom-color: #212529;
+}
