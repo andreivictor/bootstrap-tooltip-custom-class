@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/bootstrap-tooltip-custom-class/static/css/main.c5678cdb.css",
-    "main.js": "/bootstrap-tooltip-custom-class/static/js/main.da34c450.js",
+    "main.js": "/bootstrap-tooltip-custom-class/static/js/main.960ddc97.js",
     "static/js/787.e99d50cc.chunk.js": "/bootstrap-tooltip-custom-class/static/js/787.e99d50cc.chunk.js",
     "static/media/bootstrap5-logo.svg": "/bootstrap-tooltip-custom-class/static/media/bootstrap5-logo.b91717f3b8ef81a7bf2e8b03a9579108.svg",
     "static/media/bootstrap4-logo-outline.svg": "/bootstrap-tooltip-custom-class/static/media/bootstrap4-logo-outline.6f66076093b371645902659982ac51b4.svg",
     "index.html": "/bootstrap-tooltip-custom-class/index.html",
     "static/media/bootstrap4-logo.svg": "/bootstrap-tooltip-custom-class/static/media/bootstrap4-logo.49ef8a6439d69ccb267edf42934d6625.svg",
     "main.c5678cdb.css.map": "/bootstrap-tooltip-custom-class/static/css/main.c5678cdb.css.map",
-    "main.da34c450.js.map": "/bootstrap-tooltip-custom-class/static/js/main.da34c450.js.map",
+    "main.960ddc97.js.map": "/bootstrap-tooltip-custom-class/static/js/main.960ddc97.js.map",
     "787.e99d50cc.chunk.js.map": "/bootstrap-tooltip-custom-class/static/js/787.e99d50cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5678cdb.css",
-    "static/js/main.da34c450.js"
+    "static/js/main.960ddc97.js"
   ]
 }
