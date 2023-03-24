@@ -1,5 +1,6 @@
 {
-  "name": "demo-app",
+  "name": "bootstrap-tooltip-custom-class-page",
+  "homepage": "https://andreivictor.github.io/bootstrap-tooltip-custom-class",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "sass": "^1.60.0"
   }
