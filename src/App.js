@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link
@@ -10,7 +10,7 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App d-grid">
 
         <header className="navbar navbar-expand-md navbar-dark navbar--bootstrap shadow sticky-top">
@@ -45,7 +45,7 @@ function App() {
           </Routes>
         </main>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
