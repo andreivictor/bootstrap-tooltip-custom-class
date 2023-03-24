@@ -1,9 +1,0 @@
-//== Styles for predefined Popover Custom Classes
-//
-//##
-
-@each $color, $value in $theme-colors {
-  .popover-#{$color} {
-    @include popover-custom($value, color-yiq($value));
-  }
-}

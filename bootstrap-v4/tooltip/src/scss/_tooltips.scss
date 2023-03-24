@@ -1,9 +1,0 @@
-//== Styles for predefined Tooltip Custom Classes
-//
-//##
-
-@each $color, $value in $theme-colors {
-  .tooltip-#{$color} {
-    @include tooltip-custom($value, color-yiq($value));
-  }
-}

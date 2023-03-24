@@ -1,0 +1,38 @@
+.HomePage {
+  display: grid;
+  height: 100%;
+  //overflow: auto;
+  grid-template-rows: repeat(3, 1fr);
+
+  @media (min-width: 576px) and (orientation: landscape) {
+    grid-template-rows: none;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  //@include media-breakpoint-up(lg) {
+  //  grid-template-rows: none;
+  //  grid-template-columns: repeat(3, 1fr);
+  //}
+
+  //> * {
+  //  min-height: 2000px;
+  //}
+
+  &-link {
+    &__img {
+      height: 28vmin;
+    }
+
+    &__title {
+      // font-size: $font-size-base * 1.25;
+
+      //@include media-breakpoint-up(md) {
+      //  font-size: $font-size-base * 1.5;
+      //}
+      //
+      //@include media-breakpoint-up(lg) {
+      //  font-size: $font-size-base * 1.75;
+      //}
+    }
+  }
+}
