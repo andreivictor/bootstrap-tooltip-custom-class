@@ -21,7 +21,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "analyze": "react-scripts build --stats && webpack-bundle-analyzer build/bundle-stats.json"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     "@commitlint/config-conventional": "^17.4.4",
     "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
-    "sass": "^1.60.0"
+    "sass": "^1.60.0",
+    "webpack-bundle-analyzer": "^4.8.0"
   }
 }
